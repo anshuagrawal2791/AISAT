@@ -1,0 +1,98 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="55dp"
+    android:orientation="vertical"
+    tools:context="com.cognitio.aisat.Fragments.Sections"
+    android:background="@color/cognitio">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Select Section"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Verbal Reasoning"
+            android:id="@+id/vr"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Logical Reasoning"
+            android:id="@+id/lr"/>
+    </LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Quantitative Aptitude"
+            android:id="@+id/qa"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Legal Aptitude"
+            android:id="@+id/la"/>
+    </LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Scientific Aptitude"
+            android:id="@+id/sa"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="General Awareness"
+            android:id="@+id/ga"/>
+    </LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="General English"
+            android:id="@+id/ge"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Mathematics"
+            android:id="@+id/m"/>
+    </LinearLayout>
+
+</LinearLayout>

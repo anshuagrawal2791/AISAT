@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "508098067443",
+    "project_id": "aisat-146100"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508098067443:android:40a12ce3d6a06aae",
+        "android_client_info": {
+          "package_name": "com.cognitio.aisat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508098067443-lgv0k1anamqcksg9sdo904od16tq969o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cognitio.aisat",
+            "certificate_hash": "CACFFE26D945849019E830A597F2CCAE917379C1"
+          }
+        },
+        {
+          "client_id": "508098067443-b378dvdih55p5bhudls6vk0po2is5ku1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyr73vQCdQ_f6h_ItiUoT-_vXsVbysmB0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

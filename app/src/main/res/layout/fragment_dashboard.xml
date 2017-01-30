@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cognitio.aisat.drawer_fragments.Dashboard"
+    android:background="#00535a"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center_horizontal"/>
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="0.5">-->
+
+    <!--</View>-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="SELECT A TEST"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sectional Test"
+        android:textSize="20dp"
+        android:padding="30dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/sectional_test_button"
+         />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:id="@+id/complete_test_button"
+        android:layout_gravity="center_horizontal"
+        android:text="Complete Test"
+        android:textSize="20dp"
+        android:padding="30dp"
+
+        />
+
+
+</LinearLayout>

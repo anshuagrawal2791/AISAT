@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="classes" >
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="sections_array" >
+        <item>General Awareness</item>
+        <item>Verbal Reasoning</item>
+        <item>Logical Reasoning</item>
+        <item>Quantitative Aptitude</item>
+        <item>Scientific Aptitude</item>
+        <item>General English</item>
+        <item>Mathematics</item>
+        <item>Legal Aptitude</item>
+        </string-array>
+</resources>

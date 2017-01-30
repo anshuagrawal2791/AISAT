@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cognitio.aisat.Quiz"
+    android:orientation="vertical"
+    android:background="@color/cognitio"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/dp"
+            android:layout_weight="0.2"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Player"
+            android:gravity="center"
+            android:id="@+id/name"
+            android:layout_weight="0.3"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:layout_weight="0.5"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/timer_tv"
+
+            android:gravity="center"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            ></View>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:id="@+id/dp2"
+            android:layout_marginRight="2dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.4"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.14"
+            android:id="@+id/prev"
+            android:text="aa"
+            android:src="@android:drawable/ic_media_previous"
+            android:background="@drawable/side_nav_bar2"
+            />
+<LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:id="@+id/question_tv"
+        android:textColor="@android:color/white"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:gravity="center"        android:layout_marginBottom="5dp"
+        android:background="@android:color/darker_gray"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:gravity="center"        android:layout_marginBottom="5dp"
+        android:background="@android:color/darker_gray"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b4"
+        android:gravity="center"        android:background="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.14"
+            android:id="@+id/next"
+
+            android:src="@android:drawable/ic_media_next"
+            android:background="@drawable/side_nav_bar3"
+
+            />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+    android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/class_tv"
+        android:layout_gravity="left"
+        android:textColor="@android:color/white"
+        android:gravity="left"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/section_tv"
+        android:textColor="@android:color/white"
+        android:layout_gravity="left"
+        android:gravity="left"
+        />
+
+</LinearLayout>
+
+<Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/chg_sec"
+        android:text="Change Section"/>
+<Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/finish"
+        android:text="Finish"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
